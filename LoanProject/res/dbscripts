@@ -1,0 +1,6 @@
+CREATE TABLE loans(
+	transactionId CHAR(4) PRIMARY KEY,
+	branch VARCHAR(20) NOT NULL,
+	amountOfLoan DECIMAL(7,2) NOT NULL,
+	dateIssued date NOT NULL
+);
